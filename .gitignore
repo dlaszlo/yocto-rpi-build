@@ -1,0 +1,5 @@
+downloads
+sstate-cache
+build-rpi4/*
+!build-rpi4/conf
+

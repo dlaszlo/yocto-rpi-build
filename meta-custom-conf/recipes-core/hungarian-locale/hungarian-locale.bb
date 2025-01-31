@@ -5,9 +5,7 @@ DESCRIPTION = "Hungarian language support package including: \
     Console font configuration (Lat2-Therminus16), \
     Locale settings (hu_HU.UTF-8), \
     and all required language and font packages"
-
 LICENSE = "MIT"
-
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 inherit allarch systemd
@@ -15,7 +13,7 @@ inherit allarch systemd
 # Locale generation settings
 ENABLE_BINARY_LOCALE_GENERATION = "1"
 GLIBC_GENERATE_LOCALES = "hu_HU.UTF-8 en_US.UTF-8"
-IMAGE_LINGUAS ?= "hu-hu"
+IMAGE_LINGUAS ?= "hu-hu en-us"
 
 SRC_URI = " \
     file://locale.conf \

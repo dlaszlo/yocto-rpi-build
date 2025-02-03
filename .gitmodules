@@ -10,3 +10,11 @@
 	path = meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded
 	branch = scarthgap
+[submodule "meta-security"]
+	path = meta-security
+	url = git://git.yoctoproject.org/meta-security
+	branch = scarthgap
+[submodule "meta-snapd"]
+	path = meta-snapd
+	url = https://github.com/snapcore/meta-snapd.git
+	branch = scarthgap

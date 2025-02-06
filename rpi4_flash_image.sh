@@ -2,7 +2,7 @@
 set -e
 set -o pipefail
 
-DEFAULT_IMAGE="build-rpi4/tmp/deploy/images/raspberrypi4-64/core-image-weston-raspberrypi4-64.rootfs.wic"
+DEFAULT_IMAGE="build-rpi4/tmp/deploy/images/raspberrypi4-64/rpi-image-raspberrypi4-64.rootfs.wic"
 
 if [[ $# -lt 1 ]]; then
     echo "Usage: $0 <device> [image]"
